@@ -1,0 +1,99 @@
+body {
+
+    font-family: "Righteous", cursive;
+    color: rgb(255, 7, 7);
+    background: url("one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+ .left {
+    position: absolute;
+    left: 20px;
+    top: 05px;
+    font-size: 22px;
+  }
+  .left img {
+    width: 80px;
+    filter: invert(70%);
+  }
+  .mid {
+    width: 65%;
+    margin: 40px auto;
+  }
+  
+  .right {
+    position: absolute;
+    right: 90px;
+    top: 43px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 30px;
+  }
+  
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    margin: 0px 9px;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .btn {
+    font-family: "Righteous", cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: red;
+  }
+  .container {
+    color: black;
+    font-family: "Righteous", cursive;
+    margin: 150px 100px;
+    padding: 50px 40px;
+    width: 40%;
+    font-size: 28px;
+    border: 10px black;
+    border-radius: 20px;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ .bot {
+  margin: -50px 50px;
+  padding: 50px 40px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(236, 10, 10);
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 14px 43px;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px
+}
+
+.bot:hover {
+  background-color: black;
+}
+
+
+
+  
